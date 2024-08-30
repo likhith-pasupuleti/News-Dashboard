@@ -1,0 +1,122 @@
+/* .news-feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.article {
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.article:hover {
+    transform: translateY(-10px);
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+} */
+
+/* General styling for the news feed container */
+.news-feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f0f0f0;  /* Light grey background for the entire feed */
+}
+
+/* Styling for each article */
+.article {
+    width: 100%; /* Full width for smaller devices */
+    max-width: 800px; /* Maximum width to maintain readability on larger screens */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect to lift the article card */
+.article:hover {
+    transform: translateY(-10px);
+}
+
+/* Styling for images within articles */
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Space between the image and the text */
+}
+
+/* Styling for article titles */
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Styling for article descriptions */
+p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+/* Styling for error messages */
+.error-message {
+    color: #d32f2f;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ffcdd2;
+    background-color: #ffebee;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center; /* Center the error message text */
+}
+
+/* Styling for the 'Read more' button */
+.read-more {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease; /* Smooth transition for the background color */
+}
+
+/* Hover effect for the 'Read more' button */
+.read-more:hover {
+    background-color: #0056b3;
+}
